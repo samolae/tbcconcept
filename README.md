@@ -1,19 +1,17 @@
+# TBC Academy React Acceleration Task
+## Table of Contents
 
 ```markdown
-# # TBC Academy React Acceleration Task
-
-## Table of Contents
-- [Project Structure](#project-structure)
-- [Technologies Used](#technologies-used)
-- [Getting Started](#getting-started)
-  - [Prerequisites](#prerequisites)
-  - [Installation](#installation)
-  - [Running the Project](#running-the-project)
-
+- Project Structure 
+- Technologies Used 
+- Getting Started 
+  - Prerequisites 
+  - Installation
+  - Running the Project 
+```
 ## Project Structure
-
 The project follows a structured hierarchy to ensure maintainability and scalability:
-
+```
 tbcconcept/
 │
 ├── css/
@@ -30,7 +28,6 @@ tbcconcept/
 │ └── script.js # JavaScript for interactive features
 ├── index.html # Main HTML file
 └── README.md # This file
-
 ```
 
 ## Technologies Used
