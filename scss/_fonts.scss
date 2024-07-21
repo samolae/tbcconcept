@@ -1,0 +1,39 @@
+@font-face {
+    font-family: 'TBCXBold';
+    src: url('TBCXBold.eot');
+    src: url('TBCXBold.eot?#iefix') format('embedded-opentype'),
+        url('TBCXBold.woff2') format('woff2'),
+        url('TBCXBold.woff') format('woff'),
+        url('TBCXBold.ttf') format('truetype'),
+        url('TBCXBold.svg#TBCXBold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TBCXRegular';
+    src: url('TBCXRegular.eot');
+    src: url('TBCXRegular.eot?#iefix') format('embedded-opentype'),
+        url('TBCXRegular.woff2') format('woff2'),
+        url('TBCXRegular.woff') format('woff'),
+        url('TBCXRegular.ttf') format('truetype'),
+        url('TBCXRegular.svg#TBCXRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'TBCXMedium';
+    src: url('TBCXMedium.eot');
+    src: url('TBCXMedium.eot?#iefix') format('embedded-opentype'),
+        url('TBCXMedium.woff2') format('woff2'),
+        url('TBCXMedium.woff') format('woff'),
+        url('TBCXMedium.ttf') format('truetype'),
+        url('TBCXMedium.svg#TBCXMedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
