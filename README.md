@@ -1,8 +1,6 @@
 
 ```markdown
-# TBC Concept Website
-
-This is the official repository for the TBC Concept website, a dynamic and user-friendly platform designed to enhance the banking experience by showcasing various financial products and services tailored for modern users.
+# # TBC Academy React Acceleration Task
 
 ## Table of Contents
 - [Project Structure](#project-structure)
