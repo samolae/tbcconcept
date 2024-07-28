@@ -1,0 +1,71 @@
+{
+    "pageTitle": "TBC Concept | TBC Concept",
+    "navigation": {
+      "products": "Products",
+      "offers": "Offers",
+      "conceptSpace": "Concept Space"
+    },
+    "subscription": {
+      "callToAction": "&#8594; Subscribe to the package",
+      "heroTitle": "TBC Concept",
+      "heroSubtitle": "Personal banking services tailored to your needs and interests",
+      "description": "Subscribe to the TBC Concept package and enjoy both banking and non-banking advantages."
+    },
+    "subscribe": "Subscribe",
+    "packageSelection": {
+      "selectTitle": "Select a Package",
+      "digital": "Digital",
+      "premium": "Premium",
+      "moreInfo": "Read More"
+    },
+    "statistics": {
+      "users": "Users",
+      "events": "Events",
+      "offers": "Offers"
+    },
+    "offerCategories": {
+      "jazzFestivalOffers": "Jazz Festival Offers",
+      "auto": "Auto",
+      "tegeta": "Tegeta Motors",
+      "dayOff": "Leisure",
+      "visa": "Visa",
+      "other": "Other"
+    },
+    "offers": {
+      "iveria": "IVERIA BEACH - Cashback 30%",
+      "tegetaMotors50Off": "Tegeta Motors - 50% Discount",
+      "batumiOffer": "Tegeta Motors - Batumi",
+      "leMeridienDiscount": "Le Meridien Batumi – 15% Discount",
+      "marinaHotelDiscount": "Colosseum Marina Hotel – 15% Discount",
+      "pulseRacha": "PULSE - Adventure in Racha"
+    },
+    "bankingServices": {
+      "digitalBank": "Digital Bank",
+      "bankOperations": "Perform banking transactions remotely via Digital Bank",
+      "privateBanking": "Private Banker",
+      "trustedFinancialPartner": "Your trusted partner in financial advice and operations"
+    },
+    "digital_package_description": "TBC Concept Digital Package is for those who <strong> engage in banking daily,</strong> enjoy <strong>nonbanking offers and products</strong> and prefer to manage their finances and transactions on their own,<strong> without a personal banker’s assistance.</strong>",
+    "premium_package_description": "TBC Concept <strong>Premium Package</strong> client relationship format offers <strong>Personal Banker's services,</strong> along with other banking and nonbanking benefits. Your Personal Banker's main goal is to make your life easier, provide you with top quality services and contribute to your comfort and well-being.",
+    "package_360_description": "<strong>TBC Concept 360 </strong>package is tailored to those, who need even <strong>more financial tools, bigger array of opportunities</strong> and Personal Banker's support, along with banking and non-banking benefits.",
+    "more": "Read More",
+    "awards": "Awards",
+    "awardsDescriptions": "The Best Private Banking Service 2024",
+    "contact": {
+      "contactUs": "Contact us:",
+      "socialNetworks": "Social Networks"
+    },
+    "footer": {
+      "allRightsReserved": "All rights reserved",
+      "privacyPolicy": "Privacy Policy",
+      "termsAndConditions": "Terms and Conditions",
+      "package": "Package",
+      "personal": "Personal Banker",
+      "events": "Events",
+      "library": "Library",
+      "cafe": "Cafe",
+      "branches": "Branches",
+      "copyright": "2024 All rights reserved"
+    }
+  }
+  
