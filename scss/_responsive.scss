@@ -1,0 +1,91 @@
+// Media queries for responsive adjustments
+@media (max-width: 1010px) {
+  .header {
+    .nav {
+      display: none;
+    }
+    .b-container {
+      display: block;
+    }
+  }
+
+  .actions {
+    display: none;
+  }
+
+  .burger-icon {
+    display: flex;
+  }
+}
+
+@media (max-width: 768px) {
+  .nav,
+  .actions {
+    display: none;
+  }
+
+  .hero {
+    padding: 60px 0;
+
+    &__title {
+      font-size: 32px;
+    }
+
+    &__subtitle {
+      font-size: 18px;
+    }
+  }
+
+  .container {
+    .stats__grid,
+    .offers__grid,
+    .products__grid {
+      flex-direction: column;
+      display: flex;
+    }
+  }
+
+  .package,
+  .offer,
+  .product {
+    width: 100%;
+  }
+
+  .footer_content {
+    flex-direction: column;
+    align-items: flex-start;
+
+    .footer-column {
+      margin-bottom: 20px;
+    }
+
+    .contact-info {
+      .social-icons {
+        justify-content: flex-start;
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .hero {
+    padding: 40px 0;
+
+    &__title {
+      font-size: $font-size-large;
+    }
+
+    &__subtitle {
+      font-size: $font-size-base;
+    }
+
+    &__cta {
+      padding: 8px 16px;
+      font-size: 14px;
+    }
+  }
+
+  .section-title {
+    font-size: $font-size-large;
+  }
+}

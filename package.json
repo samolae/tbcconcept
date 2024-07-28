@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch": "sass --watch ./scss/global.scss:css/style.css"
+    "watch": "sass --watch ./scss/global.scss:css/style.css",
+    "build:css": "sass ./scss/global.scss css/style.css && postcss css/style.css --use autoprefixer -o css/style.css",
+    "watch:css": "sass --watch ./scss:css --style compressed"
   },
   "repository": {
     "type": "git",
@@ -16,5 +18,10 @@
   "bugs": {
     "url": "https://github.com/samolae/tbcconcept/issues"
   },
-  "homepage": "https://github.com/samolae/tbcconcept#readme"
+  "homepage": "https://github.com/samolae/tbcconcept#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss-cli": "^11.0.0",
+    "sass": "^1.77.8"
+  }
 }

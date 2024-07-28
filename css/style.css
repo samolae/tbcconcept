@@ -167,7 +167,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-size: 16px;
+  font-size: 1rem;
   height: 80px;
   position: sticky;
   top: 0;
@@ -245,7 +245,7 @@ body {
 }
 @media (max-width: 480px) {
   .header .actions a:nth-child(2) {
-    font-size: 12px;
+    font-size: 0.75rem;
   }
 }
 .header .actions a:nth-child(2):hover {
@@ -255,35 +255,6 @@ body {
   gap: 4px;
   color: #555f62;
 }
-.header .burger-icon {
-  display: none;
-  cursor: pointer;
-  flex-direction: column;
-  justify-content: space-around;
-  height: 20px;
-  width: 30px;
-}
-.header .burger-icon span {
-  width: 100%;
-  height: 2px;
-  background-color: #222;
-  display: block;
-}
-.header .burger-toggle {
-  display: none;
-}
-.header .burger-toggle:checked ~ .nav-menu {
-  display: flex;
-}
-.header .burger-toggle:checked ~ .burger-icon span:nth-child(1) {
-  transform: rotate(45deg) translate(5px, 5px);
-}
-.header .burger-toggle:checked ~ .burger-icon span:nth-child(2) {
-  opacity: 0;
-}
-.header .burger-toggle:checked ~ .burger-icon span:nth-child(3) {
-  transform: rotate(-45deg) translate(5px, -5px);
-}
 
 .nav-menu {
   display: none;
@@ -292,7 +263,7 @@ body {
   top: 80px;
   right: 0;
   width: 200px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   z-index: 10;
 }
 .nav-menu .nav-list {
@@ -324,7 +295,7 @@ body {
   padding: 0;
 }
 .main .container span {
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 600;
   color: #141719;
 }
@@ -334,33 +305,37 @@ body {
 .main .personal-banking-container {
   background: url("../img/personal-banking.png") no-repeat center center/cover;
 }
-.main .hero, .main .personal-banking-container {
+.main .hero,
+.main .personal-banking-container {
   padding: 95px;
   color: #fff;
   text-align: left;
   border-radius: 6px;
   margin: 56px auto;
 }
-.main .hero__title, .main .personal-banking-container__title {
+.main .hero__title,
+.main .personal-banking-container__title {
   font-size: 28px;
   margin-bottom: 20px;
   font-family: "TBCXBold";
 }
-.main .hero__subtitle, .main .personal-banking-container__subtitle {
-  font-size: 16px;
+.main .hero__subtitle,
+.main .personal-banking-container__subtitle {
+  font-size: 1rem;
   margin-bottom: 30px;
   max-width: 560px;
   text-align: left;
   line-height: 1.7;
 }
-.main .hero__cta, .main .personal-banking-container__cta {
+.main .hero__cta,
+.main .personal-banking-container__cta {
   background-image: linear-gradient(15deg, #001682, #3240e5);
   border-radius: 4px;
   padding: 16px 24px;
   color: #fff;
   text-decoration: none;
   font-weight: 700;
-  font-size: 12px;
+  font-size: 0.75rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -369,7 +344,8 @@ body {
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
 }
-.main .hero__cta:hover, .main .personal-banking-container__cta:hover {
+.main .hero__cta:hover,
+.main .personal-banking-container__cta:hover {
   background: #3295ce;
 }
 
@@ -383,7 +359,7 @@ body {
 .section-title {
   font-family: "TBCXBold";
   color: #141719;
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 36px;
 }
 
@@ -393,7 +369,7 @@ body {
 }
 .packages .container .section-title {
   color: #141719;
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 700;
   margin-bottom: 36px;
 }
@@ -442,7 +418,7 @@ body {
   position: relative;
   z-index: 2;
   font-family: "TBCXBold";
-  font-size: 24px;
+  font-size: 1.5rem;
   color: #fff;
   margin-bottom: 20px;
 }
@@ -510,7 +486,7 @@ body {
 .awards .container .section-title {
   font-family: "TBCXBold";
   color: #222;
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 36px;
 }
 .products .container .slider-container,
@@ -616,7 +592,7 @@ body {
   width: 78px;
   height: 56px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   background-color: #fff;
   border-radius: 6px 0 0 6px;
@@ -696,7 +672,7 @@ body {
 .awards .container .offer__content .award__category,
 .awards .container .award__content .product__category,
 .awards .container .award__content .award__category {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #222;
 }
 .products .container .product__content .product__title,
@@ -717,7 +693,7 @@ body {
 .awards .container .offer__content .award__title,
 .awards .container .award__content .product__title,
 .awards .container .award__content .award__title {
-  font-size: 16px;
+  font-size: 1rem;
   margin: 10px 0;
   color: #222;
 }
@@ -771,7 +747,7 @@ body {
 .awards .container .next-btn {
   background: none;
   border: none;
-  font-size: 24px;
+  font-size: 1.5rem;
   cursor: pointer;
   color: #182cc0;
 }
@@ -844,7 +820,7 @@ body {
 }
 .digital-bank .container div .section-description {
   color: #555f62;
-  font-size: 16px;
+  font-size: 1rem;
   max-width: 600px;
   line-height: 1.7;
 }
@@ -859,10 +835,10 @@ body {
   border: 1px solid #e1e4e5;
   border-radius: 4px;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   padding: 16px 32px;
-  font-size: 12px;
+  font-size: 0.75rem;
   font-weight: 700;
   text-decoration: none;
   transition: all 0.3s ease-in-out;
@@ -904,9 +880,10 @@ body {
 .products__grid,
 .awards__grid {
   display: flex;
+  justify-content: _;
+  align-items: normal;
   flex-wrap: wrap;
   gap: 20px;
-  justify-content: space-between;
 }
 .packages_product_grid,
 .stats_product_grid,
@@ -955,7 +932,7 @@ body {
 .awards .offer:hover,
 .awards .product:hover {
   border-color: #eef1f1;
-  box-shadow: 0 36px 40px -15px rgba(12, 43, 67, 0.07);
+  box-shadow: 0 36px 40px -15px rgba(12, 43, 67, 0.2);
 }
 .packages .package_title,
 .packages .offer_title,
@@ -972,7 +949,7 @@ body {
 .awards .package_title,
 .awards .offer_title,
 .awards .product_title {
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "TBCXBold";
 }
 .packages .package__title,
@@ -990,7 +967,7 @@ body {
 .awards .package__title,
 .awards .offer__title,
 .awards .product__title {
-  font-size: 24px;
+  font-size: 1.5rem;
   margin-bottom: 10px;
 }
 .packages .package__link,
@@ -1058,7 +1035,7 @@ body {
 .products .stats__grid .stat__number,
 .awards .stats__grid .stat__number {
   color: #141719;
-  font-size: 44px;
+  font-size: 2.75rem;
   font-family: "TBCXBold";
   line-height: 1.3;
 }
@@ -1067,7 +1044,7 @@ body {
 .offers .stats__grid .stat__label,
 .products .stats__grid .stat__label,
 .awards .stats__grid .stat__label {
-  font-size: 16px;
+  font-size: 1rem;
   color: #555f62;
   font-weight: 500;
 }
@@ -1119,64 +1096,6 @@ body {
   text-decoration: underline;
 }
 
-@media (max-width: 1010px) {
-  .header .nav {
-    display: none;
-  }
-  .header .b-container {
-    display: block;
-  }
-  .actions {
-    display: none;
-  }
-  .burger-icon {
-    display: flex;
-  }
-}
-@media (max-width: 768px) {
-  .nav,
-  .actions {
-    display: none;
-  }
-  .hero {
-    padding: 60px 0;
-  }
-  .hero__title {
-    font-size: 32px;
-  }
-  .hero__subtitle {
-    font-size: 18px;
-  }
-  .container .stats__grid,
-  .container .offers__grid,
-  .container .products__grid {
-    flex-direction: column;
-    display: flex;
-  }
-  .package,
-  .offer,
-  .product {
-    width: 100%;
-  }
-}
-@media (max-width: 480px) {
-  .hero {
-    padding: 40px 0;
-  }
-  .hero__title {
-    font-size: 24px;
-  }
-  .hero__subtitle {
-    font-size: 16px;
-  }
-  .hero__cta {
-    padding: 8px 16px;
-    font-size: 14px;
-  }
-  .section-title {
-    font-size: 24px;
-  }
-}
 .product__img-wrapper {
   width: 100%;
   height: 214px;
@@ -1218,9 +1137,10 @@ body {
   gap: 20px;
 }
 .footer_content .footer-column ul li {
-  font-size: 16px;
+  font-size: 1rem;
   color: #555f62;
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   grid-column-gap: 10px;
 }
@@ -1232,6 +1152,7 @@ body {
 }
 .footer_content .contact-info .social-icons {
   display: flex;
+  justify-content: flex-start;
   align-items: center;
   margin-top: 16px;
 }
@@ -1260,7 +1181,7 @@ body {
 }
 
 .footer_bottom {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #555f62;
   padding: 28px 0;
   border-top: 1px solid #eef1f1;
@@ -1278,18 +1199,6 @@ body {
   color: #007aff;
 }
 
-@media (max-width: 768px) {
-  .footer_content {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  .footer_content .footer-column {
-    margin-bottom: 20px;
-  }
-  .footer_content .contact-info .social-icons {
-    justify-content: flex-start;
-  }
-}
 .flex {
   width: 100%;
   display: flex;
@@ -1318,12 +1227,12 @@ body {
   gap: 12px;
 }
 .offer__content_grid p {
-  font-size: 12px;
+  font-size: 0.75rem;
   color: #6f787b;
   font-family: "TBCXBold";
 }
 .offer__content .offer__name {
-  font-size: 16px;
+  font-size: 1rem;
   font-family: "TBCXBold";
   color: #141719;
 }
@@ -1398,6 +1307,75 @@ body {
 
 .nav-menu.open {
   display: flex;
+}
+
+@media (max-width: 1010px) {
+  .header .nav {
+    display: none;
+  }
+  .header .b-container {
+    display: block;
+  }
+  .actions {
+    display: none;
+  }
+  .burger-icon {
+    display: flex;
+  }
+}
+@media (max-width: 768px) {
+  .nav,
+  .actions {
+    display: none;
+  }
+  .hero {
+    padding: 60px 0;
+  }
+  .hero__title {
+    font-size: 32px;
+  }
+  .hero__subtitle {
+    font-size: 18px;
+  }
+  .container .stats__grid,
+  .container .offers__grid,
+  .container .products__grid {
+    flex-direction: column;
+    display: flex;
+  }
+  .package,
+  .offer,
+  .product {
+    width: 100%;
+  }
+  .footer_content {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer_content .footer-column {
+    margin-bottom: 20px;
+  }
+  .footer_content .contact-info .social-icons {
+    justify-content: flex-start;
+  }
+}
+@media (max-width: 480px) {
+  .hero {
+    padding: 40px 0;
+  }
+  .hero__title {
+    font-size: 1.5rem;
+  }
+  .hero__subtitle {
+    font-size: 1rem;
+  }
+  .hero__cta {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+  .section-title {
+    font-size: 1.5rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -3,14 +3,18 @@ $secondary-color: #222;
 $background-color: #f9fafa;
 $white-color: #fff;
 $container-max-width: 1110px;
-$container-padding: 20px;
+$container-padding: 0px;
 
-$font-family-regular: 'TBCXRegular', sans-serif;
-$font-family-bold: 'TBCXBold';
-$font-size-base: 16px;
-$font-size-large: 24px;
-$font-size-small: 12px;
-$padding-base: 20px;
-$margin-base: 20px;
-$border-radius-base: 5px;
-$border-radius-medium: 8px;
+$font-family-regular: "TBCXRegular", sans-serif;
+$font-family-bold: "TBCXBold";
+$font-size-base: 1rem; // 16px
+$font-size-large: 1.5rem; // 24px
+$font-size-small: 0.75rem; // 12px
+$padding-base: 1.25rem; // 20px
+$margin-base: 1.25rem; // 20px
+$border-radius-base: 0.3125rem; // 5px
+$border-radius-medium: 0.5rem; // 8px
+
+
+
+
