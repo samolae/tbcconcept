@@ -149,10 +149,6 @@ body {
   font-weight: 400;
   line-height: 1.5;
   padding: 0 24px;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 .container {
@@ -390,6 +386,7 @@ body {
   }
 }
 .packages .container .packages__grid .package {
+  cursor: pointer;
   width: auto;
   position: relative;
   background: #fff;
@@ -868,6 +865,7 @@ body {
 }
 
 .slider-block {
+  cursor: pointer;
   display: inline-block;
 }
 .slider-block:hover {
