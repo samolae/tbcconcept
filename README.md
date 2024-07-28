@@ -14,31 +14,32 @@
 The project follows a structured hierarchy to ensure maintainability and scalability:
 ```
 tbcconcept/
-├── css/ # CSS files
-│ ├── style.css # Main stylesheet compiled from SCSS
-│ └── style.css.map # Source map for debugging CSS
-├── fonts/ # Collection of font files
-├── img/ # Images and icons
-├── js/
-│ └── script.js # Scripts for interactive elements
-├── lang/
-│ ├── en.json # English text for site content
-│ └── ka.json # Georgian text for site content
-├── node_modules/ # Dependencies (not included in Git)
-├── scss/ # SCSS files
-│ ├── _burger-menu.scss # Styles for the burger menu
-│ ├── _fonts.scss # Font definitions and imports
-│ ├── _main.scss # Main styles for the site
-│ ├── _mixin.scss # SCSS mixins for reusable code
-│ ├── _reset.scss # Reset styles to normalize browser default styles
-│ ├── _responsive.scss # Responsive design adjustments
-│ ├── _variables.scss # SCSS variables for consistent styling
-│ └── global.scss # Import of all global styles
-├── index.html # Entry point HTML file
-├── postcss.config.js # Configuration for processing CSS
-├── package.json # Project metadata and dependencies
-├── package-lock.json # Exact tree of installed packages
-└── README.md # Documentation of the project
+├── css/                        # Compiled CSS files
+│   ├── style.css               # Main stylesheet
+│   └── style.css.map           # CSS source maps for debugging
+├── fonts/                      # Custom and web fonts
+├── img/                        # Images and icons used across the site
+├── js/                         # JavaScript files
+│   └── script.js               # Main JavaScript functionality
+├── lang/                       # Language files for site localization
+│   ├── en.json                 # English language resources
+│   └── ka.json                 # Georgian language resources
+├── node_modules/               # Node modules (not tracked)
+├── scss/                       # SCSS sources
+│   ├── _burger-menu.scss       # Burger menu styles
+│   ├── _fonts.scss             # Font styles
+│   ├── _main.scss              # Core styling
+│   ├── _mixin.scss             # Reusable mixins
+│   ├── _reset.scss             # CSS reset
+│   ├── _responsive.scss        # Responsive design styles
+│   ├── _variables.scss         # SCSS variables
+│   └── global.scss             # Global style imports
+├── index.html                  # Main HTML file
+├── postcss.config.js           # PostCSS configuration
+├── package.json                # Project metadata and dependencies
+├── package-lock.json           # Locked version dependencies
+└── README.md                   # This file
+
 ```
 
 ## Technologies Used
