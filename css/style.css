@@ -251,6 +251,9 @@ body {
   gap: 4px;
   color: #555f62;
 }
+.header .actions a:nth-child(3):hover {
+  color: #3295ce;
+}
 
 .nav-menu {
   display: none;

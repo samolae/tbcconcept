@@ -99,6 +99,9 @@ body {
       &:nth-child(3) {
         gap: 4px;
         color: #555f62;
+        &:hover {
+          color: #3295ce;
+        }
       }
     }
   }
