@@ -1,0 +1,79 @@
+{
+    "pageTitle": "თიბისი კონცეპტი | TBC Concept",
+    "navigation": {
+        "products": "პროდუქტები",
+        "offers": "შეთავაზებები",
+        "conceptSpace": "კონცეპტის სივრცე"
+    },
+    "subscription": {
+        "callToAction": "&#8594; გამოიწერეთ ნაკრები",
+        "heroTitle": "თიბისი კონცეპტი",
+        "heroSubtitle": "პერსონალური საბანკო მომსახურება, მორგებული თქვენს საჭიროებებსა და ინტერესებზე",
+        "description": "გამოიწერეთ თიბისი კონცეპტის ნაკრები და ისარგებლეთ როგორც საბანკო, ისე არასაბანკო უპირატესობებით."
+    },
+    "subscribe": "გამოიწერეთ",
+    "packageSelection": {
+        "selectTitle": "შეარჩიეთ ნაკრები",
+        "digital": "ციფრული",
+        "premium": "პრემიუმი",
+        "moreInfo": "იხილეთ მეტი"
+    },
+    "statistics": {
+        "users": "მომხმარებელი",
+        "events": "ღონისძიება",
+        "offers": "შეთავაზება"
+    },
+    "offerCategories": {
+        "jazzFestivalOffers": "ჯაზ ფესტივალის შეთავაზებები",
+        "auto": "ავტო",
+        "tegeta": "თეგეტა მოტორსი",
+        "dayOff": "დასვენება",
+        "visa": "ვიზა",
+        "other": "სხვა"
+    },
+    "offers": {
+        "iveria": "IVERIA BEACH - დაიბრუნეთ 30%",
+        "tegetaMotors50Off": "თეგეტა მოტორსი - 50% ფასდაკლება",
+        "batumiOffer": "თეგეტა მოტორსი - ბათუმი",
+        "leMeridienDiscount": "Le Meridien Batumi – 15%-იანი ფასდაკლება",
+        "marinaHotelDiscount": "Colosseum Marina Hotel – 15%-იანი ფასდაკლება",
+        "pulseRacha": "PULSE - რითრითი რაჭაში"
+    },
+    "bankingServices": {
+        "digitalBank": "ციფრული ბანკი",
+        "bankOperations": "შეასრულეთ საბანკო ოპერაციები დისტანციურად, ციფრული ბანკის დახმარებით",
+        "privateBanking": "პირადი ბანკირი",
+        "trustedFinancialPartner": "თქვენი სანდო პარტნიორი ფინანსურ რჩევებსა და ოპერაციებში"
+    },
+
+
+    "digital_package_description": "თიბისი კონცეპტის ციფრული ნაკრები განკუთვნილია მათთვის, ვისთვისაც <strong>საბანკო მომსახურებით სარგებლობა ყოველდღიურობის ნაწილია,</strong> ვინც...",
+    "premium_package_description": "თიბისი კონცეპტის მომხმარებლებთან ურთიერთობის ერთ-ერთი ფორმატი - <strong>პრემიუმ ნაკრები</strong>, სხვა საბანკო და არასაბანკო უპირატესობებთან ერთად...",
+    "package_360_description": "<strong>თიბისი კონცეპტის 360</strong> ნაკრები განკუთვნილია მათთვის, ვისაც სხვა საბანკო და არასაბანკო უპიტარესობებთან ერთად, კიდევ უფრ...",
+  
+ "more": "გაიგეთ მეტი",
+ "awards": "ჯილდოები",
+ "awardsDescriptions": "საუკეთესო პერსონალური საბანკო მომსახურება საქართველოში 22024",
+ 
+    "contact": {
+        "contactUs": "დაგვიკავშირდით:",
+        "socialNetworks": "სოციალური ქსელები"
+    },
+    "footer": {
+        "allRightsReserved": "ყველა უფლება დაცულია",
+        "privacyPolicy": "კონფიდენციალურობა",
+        "termsAndConditions": "წესები და პირობები",
+
+        "package" : "ნაკრები",
+        "personal" : "პერსონალური ბანკირი",
+
+        "events": "ღონისძიებები",
+        "library": "ბიბლიოთეკა",
+        "cafe": "კაფე",
+        "branches": "ფილიალები",
+        "copyright" : "2024 ყველა უფლება დაცულია"
+
+    }
+}
+
+

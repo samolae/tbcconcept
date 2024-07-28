@@ -199,6 +199,10 @@ body {
       max-width: 150px;
       box-sizing: border-box;
       transition: all 0.3s ease-in-out;
+      span {
+            color: $white-color;
+}
+
 
       &:hover {
         background: #3295ce;
@@ -298,10 +302,21 @@ body {
           @include flex-center();
           gap: 6px;
           transition: all 0.5s ease-in-out;
+          span {          color: $white-color;
+            font-size: 14px;
+
+
+
+          }
 
           &:hover {
             color: #aeaeae;
             text-decoration: none;
+            span {
+              color: #aeaeae;
+
+
+            }
           }
         }
       }

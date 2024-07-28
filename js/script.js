@@ -1,3 +1,4 @@
+//burger
 (() => {
   const navMenu = document.getElementById('nav-menu');
   const burgerMenu = document.querySelector('.b-menu');
@@ -62,4 +63,44 @@ document.addEventListener('DOMContentLoaded', () => {
 
   createSlider('.offers');
   createSlider('.awards');
+});
+
+
+
+
+
+
+// Language toggle script using ES6
+document.addEventListener('DOMContentLoaded', () => {
+  const langToggle = document.getElementById('language-toggle');
+  const langText = document.getElementById('lang-text');
+
+  // Retrieve the current language setting from local storage or default to Georgian ('ka')
+  let currentLang = localStorage.getItem('currentLang') || 'ka';
+
+  // Update the display text based on the current language
+  langText.textContent = currentLang === 'en' ? 'EN' : 'ქარ';
+
+  langToggle.addEventListener('click', (event) => {
+    event.preventDefault();
+    currentLang = currentLang === 'en' ? 'ka' : 'en';
+    localStorage.setItem('currentLang', currentLang); // Save the current language to local storage
+    langText.textContent = currentLang === 'en' ? 'EN' : 'ქარ'; // Update the display text
+    loadLanguage(currentLang); // Load the selected language
+  });
+
+  const loadLanguage = (lang) => {
+    fetch(`lang/${lang}.json`)
+      .then(response => response.json())
+      .then(data => {
+        document.querySelectorAll("[data-lang-key]").forEach(elem => {
+          const keyPath = elem.getAttribute('data-lang-key').split('.');
+          let value = keyPath.reduce((acc, key) => acc?.[key], data); // Traverse nested properties if needed
+          elem.innerHTML = value || `Key not found: ${elem.getAttribute('data-lang-key')}`; // Set HTML or default text
+        });
+      })
+      .catch(error => console.error('Error loading language file:', error));
+  };
+
+  loadLanguage(currentLang); // Load the initial language
 });

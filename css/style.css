@@ -344,6 +344,10 @@ body {
   box-sizing: border-box;
   transition: all 0.3s ease-in-out;
 }
+.main .hero__cta span,
+.main .personal-banking-container__cta span {
+  color: #fff;
+}
 .main .hero__cta:hover,
 .main .personal-banking-container__cta:hover {
   background: #3295ce;
@@ -440,9 +444,16 @@ body {
   gap: 6px;
   transition: all 0.5s ease-in-out;
 }
+.packages .container .packages__grid .package__link span {
+  color: #fff;
+  font-size: 14px;
+}
 .packages .container .packages__grid .package__link:hover {
   color: #aeaeae;
   text-decoration: none;
+}
+.packages .container .packages__grid .package__link:hover span {
+  color: #aeaeae;
 }
 .packages .container .packages__grid .package--digital {
   grid-column: 1;
